@@ -43,6 +43,8 @@ void PhysicsSimulator::update()
     checkCollisions();
 }
 
+//here will new code
+
 void PhysicsSimulator::draw()
 {
     for (const auto &obj : objects)
